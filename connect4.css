@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    text-align:center;
+}
+#board{
+    height: 700px;
+    width: 560px;
+    background-color: royalblue;
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    border:5px navy;
+    border-radius: 50%;
+    background-color: white;
+}
+.red-piece {
+    background-color: red;
+}
+.yellow-piece {
+    background-color: yellow;
+}
